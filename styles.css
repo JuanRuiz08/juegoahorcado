@@ -1,0 +1,49 @@
+.hidden {
+    color: transparent;
+}
+
+body {
+    background-color: #6a55a3;
+    color: #fff;
+    font-family: 'SF Pixelate', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorPalabra {
+    margin-top: 20px;
+}
+
+.letra {
+    margin: 0 7px;
+    position: relative;
+    text-align: center;
+}
+
+.letra::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    min-width: 12px;
+}
+
+#botonIniciar {
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'SF Pixelate', sans-serif;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: #370dc1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
